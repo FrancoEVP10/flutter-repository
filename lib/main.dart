@@ -5,6 +5,7 @@ import 'package:flutter_repository/screens/controller_page.dart';
 import 'package:flutter_repository/screens/cuadrado_animado.dart';
 import 'package:flutter_repository/screens/graficas_circulares_page.dart';
 import 'package:flutter_repository/screens/headers_page.dart';
+import 'package:flutter_repository/screens/slideshow_page.dart';
 // import 'package:flutter_repository/screens/animaciones_page.dart';
 // import 'package:flutter_repository/screens/cuadrado_animado.dart';
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         'header_page': (_) => const HeaderPage(),
         'circular_progress_page': (_) => const CircularProgressPage(),
         'graficas_circulares_page': (_) => const GraficasCircularesPage(),
+        'slideshow_page': (_) => const SlideshowPage(),
       },
       title: 'Widgets App',
       theme: ThemeData(

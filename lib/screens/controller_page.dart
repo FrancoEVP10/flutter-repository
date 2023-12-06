@@ -63,7 +63,16 @@ class ControllerPage extends StatelessWidget {
               onTap: () {
                 Navigator.pushNamed(context, 'graficas_circulares_page');
               },
-            )
+            ),
+            ListTile(
+              title: Text('Slideshow Page'),
+              subtitle: Text('Slideshow Page'),
+              leading: Icon(Icons.animation),
+              trailing: Icon(Icons.chevron_right),
+              onTap: () {
+                Navigator.pushNamed(context, 'slideshow_page');
+              },
+            ),
           ],
         ),
       ),
